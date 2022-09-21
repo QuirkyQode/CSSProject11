@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        margin-top: 50px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav img {
+        padding-bottom: 30px;
+    }
+    nav .menu ul{
+        flex-wrap: wrap;
+    }
+    nav .menu li {
+        margin: 10px;
+    }
+    .intro {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 20px;
+    }
+    .lowcost {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .support {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 20px;
+    }
+    .services .heading{
+        flex-direction: column;
+        align-items: center;    
+        margin: 20px;
+    }
+    .services .heading h1, .services .heading p {
+        padding: 10px;
+    }
+    .pricing .price-cards {
+        flex-direction: column;
+        margin: 50px;
+    }
+    .cust-cards {
+        flex-direction: column;
+    }
+    .cust-love-p{
+        padding: 0;
+    }
+    .register {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .register .right {
+        width: auto;
+    }
+    .register button {
+        margin-top: 30px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer .right{
+        width: auto;
+        margin: 20px;
+    }
+    footer .menu {
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+}

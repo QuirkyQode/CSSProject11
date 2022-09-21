@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 100px;
+    margin-top: 40px;
+    font-family: "Poppins", serif;
+}
+button {
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%);
+    box-shadow: 0px 10.0109px 25.0273px rgba(4, 102, 200, 0.3);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.reg_btn, .price-btn {
+    background: transparent;
+    border: 1px solid #08abf5;
+    color: #08abf5;
+}
+.register {
+    background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%);
+    box-shadow: 0px 10.0109px 25.0273px rgba(4, 102, 200, 0.3);
+    color: #fff;
+    margin-left: -100px;
+    margin-right: -100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.register button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    width: fit-content;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+nav img {
+    width: 80px;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu li {
+    list-style: none;
+    padding-left: 50px;
+    font-size: 13px;
+}
+nav li:not(:first-child){
+    color: #4d4d4d;
+}
+
+.intro {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+.text-intro {
+    width: 50%;
+    padding-right: 50px;
+}
+.text-intro h1,
+.text-lowcost h1,
+.text-support h1 {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.text-intro p,
+.text-lowcost p,
+.text-support p {
+    font-size: 15px;
+    color: #5a5a5a;
+    padding-bottom: 30px;
+    line-height: 2rem;
+}
+.lowcost {
+    display: flex;
+    padding-bottom: 100px;
+}
+.support {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.services .heading{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    /* padding: 0 20px; */
+
+}
+
+.services .heading h1 {
+    padding-right: 50px;
+    font-size: 35px;
+    width: 800px;
+}
+
+.services .heading p {
+    padding-left: 130px;
+    padding-right: 50px;
+    font-size: 13px;
+    color: #555555;
+}
+
+.services .cards {
+    display: flex;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.services .card {
+    width: 300px;
+    padding: 10px 30px;
+}
+.card img {
+    width:50px;
+    padding-bottom: 20px;
+}
+.services .card h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.services .card p {
+    font-size: 12px;
+    padding-bottom: 20px;
+    color: #555555;
+}
+.pricing {
+    padding-bottom: 100px;
+    background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%);
+    box-shadow: 0px 10.0109px 25.0273px rgba(4, 102, 200, 0.3);
+    color: #fff;
+    padding: 50px 0;
+    margin-left: -100px;
+    margin-right: -100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.price-title {
+    padding-bottom: 50px;
+}
+
+.pricing .price-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.price-card {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.price-card h1 {
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    
+}
+.price-card p:first-of-type {
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+.price-card ul {
+    /* list-style-type: circle; */
+    list-style-type: none;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.price-card ul li {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.price-card ul li:before {
+    content: '✓';
+    padding-right: 10px;    
+}
+
+.price-card p:nth-of-type(2) {
+    color: #5f5f5f;
+    font-size: 20px;
+    padding-bottom: 35px;
+    font-weight: 800;
+}
+.price-card p:last-of-type {
+    color: #7a7a7a;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+.price {
+    color: #1d1d1d;
+}
+
+.price-card-active{
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: -100px;
+}
+.price-card-active .price {
+    color: #fff;
+}
+
+.cust-love{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.cust-love h1 {
+    text-align: center;
+}
+.cust-love-p{
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #777777;
+}
+.cust-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    /* padding-top: 50px; */
+}
+.cust-cards > div {
+    margin: 10px;
+  }
+.cust-card {
+    width: 40%;
+    font-size: 13px;
+    padding: 50px 20px;
+    color: #4d4d4d;
+    border: 1px solid #dfdfdf ;
+}
+.cust-text {
+    padding-bottom: 30px;
+    font-size: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.card-circle {
+    width: fit-content;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    display: inline-block;
+    margin-left: 20px;
+}   
+.author{
+    color: #000;
+    transform: translate(70px, -55px);
+    font-size: 12px;
+    margin-left: 20px;
+}
+.company {
+    font-size: 10px;
+    transform: translate(70px, -50px);
+    margin-left: 20px;
+}
+.register {
+    padding: 70px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register .right {
+    width: 40%;
+}
+.register .right p {
+    padding-top: 30px;
+    font-size: 13px;
+}
+.register button {
+    height: fit-content;
+}
+footer {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+}
+
+footer .right{
+    width: 20%;
+}
+footer .right img{
+    width: 80px;
+}
+footer .right p {
+    padding-top: 30px;
+    font-size: 12px;
+    color: #5f5f5f;
+}
+
+footer .menu {
+    display: flex;
+    justify-content:space-between;
+}
+
+footer .col {
+    padding: 10px 50px;
+}
+footer .col h1{
+    font-size: 16px;
+}
+footer .col li {
+    list-style: none;
+    padding-top: 20px;
+    font-size: 10px;
+    color: #7a7a7a;
+}
+.icons img {
+    width:30px;
+    padding-top: 20px;
+}
